@@ -1,0 +1,76 @@
+﻿@page
+@model WebApplication3.Pages.Employee.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+    @inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Xsrf
+    @{
+        var token = Xsrf.GetAndStoreTokens(HttpContext).RequestToken;
+    }
+
+<h1>Create</h1>
+
+<h4>Employee</h4>
+<hr />
+<div class="row">
+@*      <kendo-form layout="grid" form-data="@Model.employee" name="formExample" method="POST" 
+    on-submit="onFormSubmit" on-clear="onFormClear">
+        <form-items>
+            <form-item field="ShipName">
+                <item-label text="Ship Name:">
+            </form-item>
+            <form-item field="ShipCity">
+                <item-label text="Ship City:">
+            </form-item>
+            <form-item field="OrderDate">
+                <item-label text="Order Date:">
+                <datepicker-editor></datepicker-editor>
+            </form-item>
+            <form-item field="Freight">
+                <item-label text="Freight:">
+                <numerictextbox-editor></numerictextbox-editor>
+            </form-item>
+        </form-items>
+        <validatable validate-on-blur="true" validation-summary="true" 
+        error-template="<span style='color: red'>#:message#</span>" />
+        <grid cols="2" gutter="20" />
+    </kendo-form>*@
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="employee.Name" class="control-label"></label>
+                <input asp-for="employee.Name" class="form-control" />
+                <span asp-validation-for="employee.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="employee.Email" class="control-label"></label>
+                <input asp-for="employee.Email" class="form-control" />
+                <span asp-validation-for="employee.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="employee.Adderss" class="control-label"></label>
+                <input asp-for="employee.Adderss" class="form-control" />
+                <span asp-validation-for="employee.Adderss" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="employee.Date" class="control-label"></label>
+                <input asp-for="employee.Date" class="form-control" />
+                <span asp-validation-for="employee.Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

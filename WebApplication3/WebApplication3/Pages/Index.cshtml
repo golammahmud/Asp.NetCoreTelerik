@@ -1,0 +1,90 @@
+﻿@page
+@model IndexModel
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Xsrf
+@Html.AntiForgeryToken()
+@using Kendo.Mvc.UI
+@using WebApplication3.Model
+    
+@{
+    ViewData["Title"] = "Home page";
+    var token = Xsrf.GetAndStoreTokens(HttpContext).RequestToken;
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Kendo UI using CDN</title>
+
+</head>
+<body>
+
+    @(Html.Kendo().Form<Employees>()
+        .Name("formExample")
+        .FormData(Model.employee)
+        .Layout("grid")
+        .Grid(g => g.Cols(2).Gutter(20))
+        .HtmlAttributes(new { method = "POST" })
+        .Validatable(v =>
+        {
+            v.ValidateOnBlur(false);
+            v.ValidationSummary(true);
+            v.ErrorTemplate("<span style='color: red'>#:message#</span>");
+        })
+        .Items(items =>
+        {
+            items.Add()
+                .Field(f => f.Name)
+                .Label(l => l.Text("Name:"))
+                .Hint("Hint: Ship Name must be at least 5 characters long to pass server validation rules");
+            items.Add()
+                .Field(f => f.Adderss)
+                .Label(l => l.Text("Adderss"));
+                items.Add()
+                .Field(f => f.Email)
+                .Label(l => l.Text("Email:"));
+            items.Add()
+                .Field(f => f.Date)
+                .Editor(e => e.DatePicker())
+                .Label(l => l.Text("Date:"));
+            @*items.Add()
+                .Field(f => f.Email)
+                .Editor(e => e.NumericTextBox())
+                .Label(l => l.Text("Email:"));*@
+        })
+)
+
+<script>
+$("#formExample").append($("<input type='hidden' name='__RequestVerificationToken' value='@token' data-stop='true' />"));
+</script> 
+    @*@(Html.Kendo().AutoComplete()
+    .Name("autocomplete")
+    .DataTextField("Name")
+    .Filter("contains")
+    .HtmlAttributes(new { style = "width:100%" })
+    .DataSource(ds => ds
+    .Custom()
+    .Transport(transport => transport
+    .Read(r => r
+    .Url("/Index?handler=Read").Data("dataFunction")
+    ))
+    .ServerFiltering(true)
+    )
+    )
+    <script>
+
+        function dataFunction() {
+            var value = $("#autocomplete").val();
+            console.log(value);
+            return {
+                __RequestVerificationToken: kendo.antiForgeryTokens().__RequestVerificationToken,
+                filterValue: value
+            };
+        }
+
+    </script>*@
+</body>
+</html>
+
+
