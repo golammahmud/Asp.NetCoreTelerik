@@ -1,0 +1,29 @@
+﻿@page
+@model asp.netcoreTelerikGrid.Pages.buttonModel
+@{
+}
+
+
+<form method="post">
+    <div class="form-group">
+        <input  type="number" hidden asp-for="student.Id"/>
+        <input  type="text" asp-for="student.Name" class="form-control"/>
+        <label class="radio-inline">
+            @Html.RadioButtonFor(model=>model.student.IsNewStudent,"true",new { @name="newstudent"})
+            Yes
+        </label>
+        <label class="radio-inline">
+            @Html.RadioButtonFor(model=>model.student.IsNewStudent,"false",new { @name="newstudent"})
+            No
+        </label>
+        <div class="form-check">
+
+            @Html.CheckBoxFor(model=>model.student.IsStudentUnderClass10,new { @class="form-check-input"})
+            @*<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" asp-for="student.IsStudentUnderClass10">*@
+            <label class="form-check-label" for="flexCheckDefault">
+                is under class 10
+            </label>
+        </div>
+    </div>
+    <button type="submit">submit</button>
+</form>

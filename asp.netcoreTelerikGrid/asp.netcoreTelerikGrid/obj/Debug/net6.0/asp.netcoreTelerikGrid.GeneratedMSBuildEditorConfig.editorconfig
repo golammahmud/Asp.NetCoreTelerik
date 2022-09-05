@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = G:\Asp.Net Core Razor&Zamarin&Api\Asp.NetCoreTelerik\asp.netcoreTelerikGrid\asp.netcoreTelerikGrid
 build_property._RazorSourceGeneratorDebug = 
 
+[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/button.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYnV0dG9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
