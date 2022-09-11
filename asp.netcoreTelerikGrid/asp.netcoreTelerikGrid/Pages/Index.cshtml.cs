@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using asp.netcoreTelerikGrid.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace asp.netcoreTelerikGrid.Pages
@@ -12,9 +13,16 @@ namespace asp.netcoreTelerikGrid.Pages
             _logger = logger;
         }
 
+        [BindProperty]
+        public Student   Students { get; set; }
         public void OnGet()
         {
+            Students = new Student();
+        }
 
+        public IActionResult OnPost()
+        {
+            return Page();
         }
     }
 }
