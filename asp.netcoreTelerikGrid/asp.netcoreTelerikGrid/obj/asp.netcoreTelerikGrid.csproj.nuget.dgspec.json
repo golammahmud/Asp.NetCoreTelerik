@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Asp.Net Core Razor&Zamarin&Api\\Asp.NetCoreTelerik\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid.csproj": {}
+    "G:\\DropdownMultiple\\Asp.NetCoreTelerik\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid.csproj": {}
   },
   "projects": {
-    "G:\\Asp.Net Core Razor&Zamarin&Api\\Asp.NetCoreTelerik\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid.csproj": {
+    "G:\\DropdownMultiple\\Asp.NetCoreTelerik\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Asp.Net Core Razor&Zamarin&Api\\Asp.NetCoreTelerik\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid.csproj",
+        "projectUniqueName": "G:\\DropdownMultiple\\Asp.NetCoreTelerik\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid.csproj",
         "projectName": "asp.netcoreTelerikGrid",
-        "projectPath": "G:\\Asp.Net Core Razor&Zamarin&Api\\Asp.NetCoreTelerik\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid.csproj",
-        "packagesPath": "C:\\Users\\golam\\.nuget\\packages\\",
-        "outputPath": "G:\\Asp.Net Core Razor&Zamarin&Api\\Asp.NetCoreTelerik\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid\\obj\\",
+        "projectPath": "G:\\DropdownMultiple\\Asp.NetCoreTelerik\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "G:\\DropdownMultiple\\Asp.NetCoreTelerik\\asp.netcoreTelerikGrid\\asp.netcoreTelerikGrid\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "G:\\Asp.Net Core Razor&Zamarin&Api\\Asp.NetCoreTelerik\\asp.netcoreTelerikGrid\\NuGet.Config",
-          "C:\\Users\\golam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "G:\\DropdownMultiple\\Asp.NetCoreTelerik\\asp.netcoreTelerikGrid\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,8 +76,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -89,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

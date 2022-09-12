@@ -1,4 +1,5 @@
-﻿using asp.netcoreTelerikGrid.Models;
+﻿using asp.netcoreTelerikGrid.Data;
+using asp.netcoreTelerikGrid.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
@@ -7,22 +8,32 @@ namespace asp.netcoreTelerikGrid.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
+        private ApplicationDbContext applicationDbContext;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(ILogger<IndexModel> logger, ApplicationDbContext _applicationDbContext)
         {
             _logger = logger;
+            this.applicationDbContext = _applicationDbContext;
         }
+
+     
+
+    
 
         [BindProperty]
-        public Student   Students { get; set; }
+        public IList<Student> StudentsList { get; set; }
+
+        [BindProperty]
+        public List<string> DropdownSelector { get; set; }
         public void OnGet()
         {
-            Students = new Student();
+            StudentsList = applicationDbContext.Student.ToList();
+
+
+
+
         }
 
-        public IActionResult OnPost()
-        {
-            return Page();
-        }
+      
     }
 }

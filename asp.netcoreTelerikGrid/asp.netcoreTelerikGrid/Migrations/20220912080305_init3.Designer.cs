@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using asp.netcoreTelerikGrid.Data;
 
@@ -11,9 +12,10 @@ using asp.netcoreTelerikGrid.Data;
 namespace asp.netcoreTelerikGrid.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220912080305_init3")]
+    partial class init3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -55,13 +57,14 @@ namespace asp.netcoreTelerikGrid.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<bool?>("IsNewStudent")
+                    b.Property<bool>("IsNewStudent")
                         .HasColumnType("bit");
 
-                    b.Property<bool?>("IsStudentUnderClass10")
+                    b.Property<bool>("IsStudentUnderClass10")
                         .HasColumnType("bit");
 
                     b.Property<string>("IsStudied")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")

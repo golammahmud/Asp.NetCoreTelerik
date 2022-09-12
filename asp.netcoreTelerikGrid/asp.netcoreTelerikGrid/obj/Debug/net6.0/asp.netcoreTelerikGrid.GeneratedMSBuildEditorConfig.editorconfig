@@ -8,105 +8,113 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = asp.netcoreTelerikGrid
 build_property.RootNamespace = asp.netcoreTelerikGrid
-build_property.ProjectDir = G:\Asp.Net Core Razor&Zamarin&Api\Asp.NetCoreTelerik\asp.netcoreTelerikGrid\asp.netcoreTelerikGrid\
+build_property.ProjectDir = G:\DropdownMultiple\Asp.NetCoreTelerik\asp.netcoreTelerikGrid\asp.netcoreTelerikGrid\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\Asp.Net Core Razor&Zamarin&Api\Asp.NetCoreTelerik\asp.netcoreTelerikGrid\asp.netcoreTelerikGrid
+build_property.MSBuildProjectDirectory = G:\DropdownMultiple\Asp.NetCoreTelerik\asp.netcoreTelerikGrid\asp.netcoreTelerikGrid
 build_property._RazorSourceGeneratorDebug = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/button.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/button.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYnV0dG9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Error.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Grid/Index.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Grid/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JpZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Grid/List.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Grid/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JpZFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Index.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Privacy.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Boolean.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Boolean.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xCb29sZWFuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Country.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Country.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xDb3VudHJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Currency.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Currency.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xDdXJyZW5jeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Date.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Date.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xEYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/DateTime.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/DateTime.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xEYXRlVGltZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Email.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xFbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/EmailAddress.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/EmailAddress.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xFbWFpbEFkZHJlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/GridForeignKey.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/GridForeignKey.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xHcmlkRm9yZWlnbktleS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Integer.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Integer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xJbnRlZ2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Number.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Number.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xOdW1iZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Password.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Password.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/String.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/String.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xTdHJpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Time.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Time.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xUaW1lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Url.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/EditorTemplates/Url.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xVcmwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/_ViewImports.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/_ViewStart.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Asp.Net Core Razor&Zamarin&Api/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/_Layout.cshtml]
+[G:/DropdownMultiple/Asp.NetCoreTelerik/asp.netcoreTelerikGrid/asp.netcoreTelerikGrid/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mv017g1ids

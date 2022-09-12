@@ -10,6 +10,7 @@ namespace asp.netcoreTelerikGrid.Data
 
         }
         public DbSet<ProductViewModel> Product { get; set; }
+        public DbSet<Student> Student { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -1,0 +1,37 @@
+﻿@page
+@model asp.netcoreTelerikGrid.Pages.AddModel
+@{
+}
+<div class="container">
+    <form method="post">
+        <div class="form-group">
+            <input type="hidden" asp-for="Students.Id" />
+            <div class="">
+                <strong>Select Language:</strong>
+                <select id="multiple-checkboxes" asp-for="@Model.StudentList" asp-items="@Model.Students.GetSelectList();" multiple="multiple">
+                    @*<option value="php">PHP</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="java">Java</option>
+                    <option value="sql">SQL</option>
+                    <option value="jquery">Jquery</option>
+                    <option value=".net">.Net</option>*@
+                </select>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-outline-info">submit</button>
+    </form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">
+<script>
+    $(document).ready(function() {
+        $('#multiple-checkboxes').multiselect({
+            includeSelectAllOption: true,
+        });
+    });
+</script>
